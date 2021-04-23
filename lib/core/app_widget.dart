@@ -1,7 +1,6 @@
-// import 'package:devquiz/home/home_page.dart';
-
-import 'package:devquiz/splash/splash_page.dart';
 import 'package:flutter/material.dart';
+import 'package:devquiz/home/home_page.dart';
+// import 'package:devquiz/splash/splash_page.dart';
 
 class AppWidget extends StatelessWidget {
   @override
@@ -9,7 +8,7 @@ class AppWidget extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "DevQuiz",
-      home: SplashPage(),
+      home: HomePage(),
     );
   }
 }
